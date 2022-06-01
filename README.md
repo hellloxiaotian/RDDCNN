@@ -12,12 +12,12 @@ This is the official code of CAAI Transactions on Intelligence Technology paper 
 
 ## Dataset
 ### Training sets
-The training set of the gray noisy images is downloaded at [here](https://drive.google.com/file/d/1NlmMR4RtWBar04stavxuAserPryGfoT0/view?usp=sharing).
-The training set of the real noisy images is downloaded at [here](https://drive.google.com/file/d/1zsYoxREQx8EcP0THS9ZqNehriegaqoxz/view?usp=sharing).
+The training set of the gray noisy images can be downloaded at [here](https://drive.google.com/file/d/1NlmMR4RtWBar04stavxuAserPryGfoT0/view?usp=sharing).
+The training set of the real noisy images can be downloaded at [here](https://drive.google.com/file/d/1zsYoxREQx8EcP0THS9ZqNehriegaqoxz/view?usp=sharing).
 ### Test sets
-The test set BSD68 of the gray noisy images is downloaded at [here](https://drive.google.com/file/d/1lxXQ_buMll_JVWxKpk5fp0jduW5F_MHe/view?usp=sharing).
-The test set Set12 of the gray noisy images is downloaded at [here](https://drive.google.com/file/d/1cpQwFpNv1MXsM5bJkIumYfww8EPtlkWf/view?usp=sharing).
-The test set CC of the real noisy images is downloaded at [here](https://drive.google.com/file/d/17DE-SV85Slu2foC0F0Ftob5VmRrHWI2h/view?usp=sharing ).
+The test set BSD68 of the gray noisy images can be downloaded at [here](https://drive.google.com/file/d/1lxXQ_buMll_JVWxKpk5fp0jduW5F_MHe/view?usp=sharing).
+The test set Set12 of the gray noisy images can be downloaded at [here](https://drive.google.com/file/d/1cpQwFpNv1MXsM5bJkIumYfww8EPtlkWf/view?usp=sharing).
+The test set CC of the real noisy images can be downloaded at [here](https://drive.google.com/file/d/17DE-SV85Slu2foC0F0Ftob5VmRrHWI2h/view?usp=sharing ).
 
 ## Training
 For training with gray images with known noise level, run the following training example:
@@ -56,19 +56,19 @@ CUDA_VISIBLE_DEVICES=0 python real/test_r.py --model_dir $YOUR_MODEL_PATH --set_
 
 ## Experimental results
 ### Denoising results of different methods on BSD68 for noise level of 25
-![Ablation](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/Ablation.png)
+![Ablation](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/Ablation.png)
 ### Comparisons of deformable convolution and common convolution
-![ComparisonsOfDeformableConvAndConv](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/ComparisonsOfDeformableConvAndConv.png)
+![ComparisonsOfDeformableConvAndConv](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/ComparisonsOfDeformableConvAndConv.png)
 ### PSNR (dB) results of several networks on BSD68 for noise level of 15, 25, and 50
-![BSD68](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/BSD68.png)
+![BSD68](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/BSD68.png)
 ### Average PSNR (dB) results of different methods on Set12 with noise levels of 15, 25 and 50
-![set12](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/Set12.png)
+![set12](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/Set12.png)
 ### Complexity of different denoising methods
-![Complexity](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/Complexity.png)
+![Complexity](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/Complexity.png)
 ### Running time (s) of different methods for  256×256, 512×512, and 1024×1024
-![RunningTime](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/RunningTime.png)
+![RunningTime](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/RunningTime.png)
 ### Average PSNR (dB) of different denoising methods on CC
-![CC](https://github.com/hellloxiaotian/RDDCNN/experimetnal results/CC.png)
+![CC](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/CC.png)
 
 ## If you cite this paper, please the following format:  
 #### 1..  
