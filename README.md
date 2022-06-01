@@ -2,7 +2,7 @@
 This is the official code of CAAI Transactions on Intelligence Technology paper :<br>
 [A robust deformed CNN for image denoising]()<br>
 
-![pipeline](https://github.com/hellloxiaotian/RDDCNN/pipeline.jpg)
+![pipeline](./RDDCNN/pipeline.jpg)
 
 ## Requirements
 - Python 3.7
