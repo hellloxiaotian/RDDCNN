@@ -30,7 +30,7 @@ CUDA_VISIBLE_DEVICES=0 python gray/train.py --sigma $SIGMA --mode B --train_data
 ```
 For training with real images, run the following training example:
 ```shell
-CUDA_VISIBLE_DEVICES=0 python real/train_r.py --sigma $SIGMA --mode B --train_data $YOUR_SET_PATH
+CUDA_VISIBLE_DEVICES=0 python real/train_r.py --train_data $YOUR_SET_PATH
 ```
 
 ## Validation
