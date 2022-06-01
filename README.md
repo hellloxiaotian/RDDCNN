@@ -70,7 +70,7 @@ CUDA_VISIBLE_DEVICES=0 python real/test_r.py --model_dir $YOUR_MODEL_PATH --set_
 ### Average PSNR (dB) of different denoising methods on CC
 ![CC](./ExperimentalResults/CC.PNG)
 
-## If you cite this paper, please the following format:  
+## If you cite this paper, please use the following format:  
 #### 1..  
 #### 2..
 
