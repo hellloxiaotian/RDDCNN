@@ -2,7 +2,7 @@
 This is the official code of CAAI Transactions on Intelligence Technology paper :<br>
 [A robust deformed CNN for image denoising]()<br>
 
-![pipeline](./RDDCNN/pipeline.jpg)
+![pipeline](./pipeline.jpg)
 
 ## Requirements
 - Python 3.7
@@ -56,19 +56,19 @@ CUDA_VISIBLE_DEVICES=0 python real/test_r.py --model_dir $YOUR_MODEL_PATH --set_
 
 ## Experimental results
 ### Denoising results of different methods on BSD68 for noise level of 25
-![Ablation](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/Ablation.png)
+![Ablation](./ExperimetnalResults/Ablation.png)
 ### Comparisons of deformable convolution and common convolution
-![ComparisonsOfDeformableConvAndConv](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/ComparisonsOfDeformableConvAndConv.png)
+![ComparisonsOfDeformableConvAndConv](./ExperimetnalResults/ComparisonsOfDeformableConvAndConv.png)
 ### PSNR (dB) results of several networks on BSD68 for noise level of 15, 25, and 50
-![BSD68](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/BSD68.png)
+![BSD68](./ExperimetnalResults/BSD68.png)
 ### Average PSNR (dB) results of different methods on Set12 with noise levels of 15, 25 and 50
-![set12](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/Set12.png)
+![set12](./ExperimetnalResults/Set12.png)
 ### Complexity of different denoising methods
-![Complexity](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/Complexity.png)
+![Complexity](./ExperimetnalResults/Complexity.png)
 ### Running time (s) of different methods for  256×256, 512×512, and 1024×1024
-![RunningTime](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/RunningTime.png)
+![RunningTime](./ExperimetnalResults/RunningTime.png)
 ### Average PSNR (dB) of different denoising methods on CC
-![CC](https://github.com/hellloxiaotian/RDDCNN/ExperimetnalResults/CC.png)
+![CC](./RDDCNN/ExperimetnalResults/CC.png)
 
 ## If you cite this paper, please the following format:  
 #### 1..  
