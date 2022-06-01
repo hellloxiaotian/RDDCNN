@@ -56,19 +56,19 @@ CUDA_VISIBLE_DEVICES=0 python real/test_r.py --model_dir $YOUR_MODEL_PATH --set_
 
 ## Experimental results
 ### Denoising results of different methods on BSD68 for noise level of 25
-![Ablation](./ExperimentalResults/Ablation.png)
+![Ablation](./ExperimentalResults/Ablation.PNG)
 ### Comparisons of deformable convolution and common convolution
-![ComparisonsOfDeformableConvAndConv](./ExperimentalResults/ComparisonsOfDeformableConvAndConv.png)
+![ComparisonsOfDeformableConvAndConv](./ExperimentalResults/ComparisonsOfDeformableConvAndConv.PNG)
 ### PSNR (dB) results of several networks on BSD68 for noise level of 15, 25, and 50
-![BSD68](./ExperimentalResults/BSD68.png)
+![BSD68](./ExperimentalResults/BSD68.PNG)
 ### Average PSNR (dB) results of different methods on Set12 with noise levels of 15, 25 and 50
-![set12](./ExperimentalResults/Set12.png)
+![set12](./ExperimentalResults/Set12.PNG)
 ### Complexity of different denoising methods
-![Complexity](./ExperimentalResults/Complexity.png)
+![Complexity](./ExperimentalResults/Complexity.PNG)
 ### Running time (s) of different methods for  256×256, 512×512, and 1024×1024
-![RunningTime](./ExperimentalResults/RunningTime.png)
+![RunningTime](./ExperimentalResults/RunningTime.PNG)
 ### Average PSNR (dB) of different denoising methods on CC
-![CC](./ExperimentalResults/CC.png)
+![CC](./ExperimentalResults/CC.PNG)
 
 ## If you cite this paper, please the following format:  
 #### 1..  
