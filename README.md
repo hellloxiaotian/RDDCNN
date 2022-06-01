@@ -66,7 +66,7 @@ CUDA_VISIBLE_DEVICES=0 python real/test_r.py --model_dir $YOUR_MODEL_PATH --set_
 ### Complexity of different denoising methods
 ![Complexity](./ExperimentalResults/Complexity.PNG)
 ### Running time (s) of different methods for  256×256, 512×512, and 1024×1024
-![RunningTime](./ExperimentalResults/RunningTime.PNG)
+![RunningTime](./ExperimentalResults/Runningtime.PNG)
 ### Average PSNR (dB) of different denoising methods on CC
 ![CC](./ExperimentalResults/CC.PNG)
 
