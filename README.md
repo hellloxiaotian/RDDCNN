@@ -1,10 +1,10 @@
 # RDDCNN 
-## A robust deformed CNN for image denoising(RDDCNN) by Qi Zhang, Jingyu Xiao, Chunwei Tian*, Jerry Chun-Wei Lin and Shichao Zhang is accepted by the CAAI Transactions on Intelligence Technology in 2022 and it is implemented by PyTorch.
+## A robust deformed CNN for image denoising(RDDCNN) by Qi Zhang, Jingyu Xiao, Chunwei Tian, Jerry Chun-Wei Lin and Shichao Zhang is published by CAAI Transactions on Intelligence Technology, 2022 and it is implemented by PyTorch.
 
 ## Absract
 #### Due to strong learning ability, convolutional neural networks (CNNs) have been developed in image denoising. However, convolutional operations may change original distributions of noise in corrupted images, which may increase training difficulty in image denoising. Using relations of surrounding pixels can effectively resolve this problem. Inspired by that, we propose a robust deformed denoising CNN (RDDCNN) in this paper. The proposed RDDCNN contains three blocks: a deformable block (DB), an enhanced block (EB) and a residual block (RB). The DB can extract more representative noise features via a deformable learnable kernel and stacked convolutional architecture, according to relations of surrounding pixels. The EB can facilitate contextual interaction through a dilated convolution and a novel combination of convolutional layers, batch normalization (BN) and ReLU, which can enhance the learning ability of the proposed RDDCNN. To address long-term dependency problem, the RB is used to enhance the memory ability of shallow layer on deep layers and construct a clean image. Besides, we implement a blind denoising model. Experimental results demonstrate that our denoising model outperforms popular denoising methods in terms of qualitative and quantitative analysis. Codes can be obtained at https://github.com/hellloxiaotian/RDDCNN.
 
-![pipeline](./pipeline.jpg)
+![pipeline](./pipeline.png)
 
 ## Requirements
 #### Python 3.7
@@ -63,9 +63,11 @@
 ### 7.Average PSNR (dB) of different denoising methods on CC
 ![CC](./ExperimentalResults/CC.PNG)
 
-## If you cite this paper, please use the following format:  
-#### 1..  
-#### 2..
+## Visual results
+### Denoising results of different methods on one image from BSD68 when noise level 25. (a) Original image (b) Noisy image/20.19 dB (c) BM3D /36.59 dB (d) WNNM /37.22 dB (e) IRCNN /38.17 dB (f) FFDNet /38.41 dB (g) DnCNN /38.45 dB (h) RDDCNN/38.64 dB.
+![Fig1](./ExperimentalResults/Fig1.PNG)
+### Denoising results of different methods on one image from BSD68 when noise level is 50. (a) Original image (b) Noisy image/14.66 dB (c) BM3D /29.87 dB (d) WNNM /30.07 dB (e) IRCNN /30.33 dB (f) DnCNN /30.48 dB (g) FFDNet /30.56 dB (h) RDDCNN/30.67 dB.
+![Fig2](./ExperimentalResults/Fig2.PNG)
+### Denoising results of different methods on one image from Set12 when noise level is 15. (a) Original image (b) Noisy image/24.60 dB (c) BM3D /31.37 dB (d) WNNM /31.62 dB (e) FFDNet /31.81 dB (f) DnCNN /31.83 dB (g) IRCNN /31.84 dB (h) RDDCNN/31.93 dB
+![Fig3](./ExperimentalResults/Fig3.PNG)
 
-## Acknowledgement
-#### We thank 4uiiurz1 (https://github.com/4uiiurz1) for his implementation of Deformable Convolution with PyTorch.
