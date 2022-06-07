@@ -4,7 +4,7 @@
 ## Absract
 #### Due to strong learning ability, convolutional neural networks (CNNs) have been developed in image denoising. However, convolutional operations may change original distributions of noise in corrupted images, which may increase training difficulty in image denoising. Using relations of surrounding pixels can effectively resolve this problem. Inspired by that, we propose a robust deformed denoising CNN (RDDCNN) in this paper. The proposed RDDCNN contains three blocks: a deformable block (DB), an enhanced block (EB) and a residual block (RB). The DB can extract more representative noise features via a deformable learnable kernel and stacked convolutional architecture, according to relations of surrounding pixels. The EB can facilitate contextual interaction through a dilated convolution and a novel combination of convolutional layers, batch normalization (BN) and ReLU, which can enhance the learning ability of the proposed RDDCNN. To address long-term dependency problem, the RB is used to enhance the memory ability of shallow layer on deep layers and construct a clean image. Besides, we implement a blind denoising model. Experimental results demonstrate that our denoising model outperforms popular denoising methods in terms of qualitative and quantitative analysis. Codes can be obtained at https://github.com/hellloxiaotian/RDDCNN.
 
-![pipeline](./pipeline.png)
+![pipeline](./pipeline.PNG)
 
 ## Requirements
 #### Python 3.7
