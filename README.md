@@ -73,6 +73,12 @@
 ### Denoising results of different methods on one image from Set12 when noise level is 15. (a) Original image (b) Noisy image/24.60 dB (c) BM3D /31.37 dB (d) WNNM /31.62 dB (e) FFDNet /31.81 dB (f) DnCNN /31.83 dB (g) IRCNN /31.84 dB (h) RDDCNN/31.93 dB
 ![Fig3](./ExperimentalResults/Fig3.PNG)
 
-Cited information is shown as follows.
-1. **
-2. **
+### Cited information is shown as follows.
+### 1. Zhang Q, Xiao J, Tian C, et al. A robust deformed convolutional neural network (CNN) for image denoising[J]. CAAI Transactions on Intelligence Technology, 2022.
+### 2. @article{zhang2022robust,
+### title={A robust deformed convolutional neural network (CNN) for image denoising},
+### author={Zhang, Qi and Xiao, Jingyu and Tian, Chunwei and Chun-Wei Lin, Jerry and Zhang, Shichao},
+### journal={CAAI Transactions on Intelligence Technology},
+### year={2022},
+### publisher={Wiley Online Library}
+### }
