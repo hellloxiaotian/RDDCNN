@@ -74,11 +74,11 @@
 ![Fig3](./ExperimentalResults/Fig3.PNG)
 
 ### Cited information is shown as follows.
-### 1. Zhang Q, Xiao J, Tian C, et al. A robust deformed convolutional neural network (CNN) for image denoising[J]. CAAI Transactions on Intelligence Technology, 2022.
-### 2. @article{zhang2022robust,
-### title={A robust deformed convolutional neural network (CNN) for image denoising},
-### author={Zhang, Qi and Xiao, Jingyu and Tian, Chunwei and Chun-Wei Lin, Jerry and Zhang, Shichao},
-### journal={CAAI Transactions on Intelligence Technology},
-### year={2022},
-### publisher={Wiley Online Library}
-### }
+#### 1. Zhang Q, Xiao J, Tian C, et al. A robust deformed convolutional neural network (CNN) for image denoising[J]. CAAI Transactions on Intelligence Technology, 2022.
+#### 2. @article{zhang2022robust,
+#### title={A robust deformed convolutional neural network (CNN) for image denoising},
+#### author={Zhang, Qi and Xiao, Jingyu and Tian, Chunwei and Chun-Wei Lin, Jerry and Zhang, Shichao},
+#### journal={CAAI Transactions on Intelligence Technology},
+#### year={2022},
+#### publisher={Wiley Online Library}
+#### }
