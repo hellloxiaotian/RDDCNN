@@ -1,5 +1,5 @@
 # RDDCNN 
-## A robust deformed convolutional neural network for image denoising(RDDCNN) is proposed by  Qi Zhang, Jingyu Xiao, Chunwei Tian*, Jerry Chun-Wei Lin and Shichao Zhang. Also, it is accepted by the CAAI Transactions on Intelligence Technology （Office journal of the Chinese Association for Artificial Intelligence/SCI）in 2022 and it is implemented by PyTorch. This paper can be obtained at https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12110.
+## A robust deformed convolutional neural network for image denoising(RDDCNN) is proposed by  Qi Zhang, Jingyu Xiao, Chunwei Tian*, Jerry Chun-Wei Lin and Shichao Zhang. Also, it is accepted by the CAAI Transactions on Intelligence Technology （Office journal of the Chinese Association for Artificial Intelligence/SCI:IF-7.985）in 2022 and it is implemented by PyTorch. This paper can be obtained at https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12110.
 
 ## RDDCNN mainly combines a deformable convolution and a stacked architecture with a dilated convolution to restore high-quality pixels, according  to relations of surrounding pixels and obtained structural information in image denoising. 
 
